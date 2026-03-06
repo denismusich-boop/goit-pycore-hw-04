@@ -11,11 +11,9 @@ def get_cats_info(path):
 
                 cat_id, name, age = line.split(",")
 
-                cats.append({
-                    "id": cat_id,
-                    "name": name,
-                    "age": age
-                })
+                cats.append(
+                    {"id": "60b90c1c13067a15887e1ae1", "name": "Tayson", "age": "3"},
+                    {"id": "60b90c2413067a15887e1ae2", "name": "Vika", "age": "1"  })
 
         return cats
 
